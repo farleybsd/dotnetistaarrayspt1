@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lista Somente Leitura", "Li
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conjuntos-Sets", "Conjuntos-Sets\Conjuntos-Sets.csproj", "{E871480F-BB95-4F8B-9AC5-90EAA8F331AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Set_Dentro_Modelo", "Set_Dentro_Modelo\Set_Dentro_Modelo.csproj", "{BFECED88-AC7C-487B-9DAA-676A68FD8522}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{E871480F-BB95-4F8B-9AC5-90EAA8F331AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E871480F-BB95-4F8B-9AC5-90EAA8F331AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E871480F-BB95-4F8B-9AC5-90EAA8F331AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFECED88-AC7C-487B-9DAA-676A68FD8522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFECED88-AC7C-487B-9DAA-676A68FD8522}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFECED88-AC7C-487B-9DAA-676A68FD8522}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFECED88-AC7C-487B-9DAA-676A68FD8522}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
