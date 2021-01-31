@@ -45,5 +45,29 @@ namespace Lista_Somente_Leitura
             set { instrutor = value; }
         }
 
+        public int TempoTotal
+        {
+            get
+            {
+                //int total = 0;
+
+                //foreach (var aula in aulas)
+                //{
+                //    total += aula.Tempo;
+                //}
+
+                //return total;
+
+                // LINQ = LANGUAGE Integrated Query
+                // Consulta Integrada á Linguagem
+
+                return aulas.Sum(aula => aula.Tempo);
+            }
+        }
+
+        public override string ToString()
+        {
+            return $"[Curso: {nome}, Tempo: {TempoTotal}, Aulas:{string.Join(",",aulas)}]";
+        }
     }
 }
