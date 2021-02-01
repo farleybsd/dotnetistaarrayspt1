@@ -5,11 +5,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Set_Dentro_Modelo
+namespace Dicionario
 {
-
     class Curso
     {
+
+        //implementado um dicionario de alunos
+        private IDictionary<int, Aluno> dicionarioAlunos =
+            new Dictionary<int, Aluno>();
 
         // Alunos deve ser um Iset.Alunos deve retornar ReadOnlyCollection
         private ISet<Aluno> alunos = new HashSet<Aluno>();
@@ -51,7 +54,8 @@ namespace Set_Dentro_Modelo
 
         internal void Matricula(Aluno aluno)
         {
-            alunos.Add(aluno);
+            this.alunos.Add(aluno);
+            this.dicionarioAlunos.Add(aluno.NumeroMatricula,aluno);
         }
 
         public string Instrutor
@@ -87,12 +91,9 @@ namespace Set_Dentro_Modelo
 
         internal Aluno BuscaMatriculado(int numeroMatricula)
         {
-            foreach (var aluno in alunos)
-            {
-                if (aluno.NumeroMatricula == numeroMatricula)
-                    return aluno;
-            }
-            throw new Exception("Matricula não Encontrada" + numeroMatricula);
+            Aluno aluno = null;
+             this.dicionarioAlunos.TryGetValue(numeroMatricula,out aluno );
+            return aluno;
         }
 
         public bool EstaMatriculado(Aluno aluno)
@@ -102,4 +103,3 @@ namespace Set_Dentro_Modelo
 
     }
 }
-

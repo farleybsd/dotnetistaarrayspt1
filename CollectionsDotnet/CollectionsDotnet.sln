@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conjuntos-Sets", "Conjuntos
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Set_Dentro_Modelo", "Set_Dentro_Modelo\Set_Dentro_Modelo.csproj", "{BFECED88-AC7C-487B-9DAA-676A68FD8522}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dicionario", "Dicionario\Dicionario.csproj", "{E6423C67-426D-46EC-9BC5-3EC3137F652E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{BFECED88-AC7C-487B-9DAA-676A68FD8522}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFECED88-AC7C-487B-9DAA-676A68FD8522}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFECED88-AC7C-487B-9DAA-676A68FD8522}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6423C67-426D-46EC-9BC5-3EC3137F652E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6423C67-426D-46EC-9BC5-3EC3137F652E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6423C67-426D-46EC-9BC5-3EC3137F652E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6423C67-426D-46EC-9BC5-3EC3137F652E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

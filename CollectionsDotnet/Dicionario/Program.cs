@@ -4,25 +4,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Set_Dentro_Modelo
+namespace Dicionario
 {
     class Program
     {
         static void Main(string[] args)
         {
-            //Vamos declarar o curso
-            Curso csharpColecoes = new Curso("C# Colecoes","Marcelo Oliveira");
+            // Vamos declarar o curso
+            Curso csharpColecoes = new Curso("C# Colecoes", "Marcelo Oliveira");
 
             // Adcicionando 3 aulas a esse curso
-            csharpColecoes.Adicona(new Aula("Trabalhando com Listas",21));
-            csharpColecoes.Adicona(new Aula("Criando uma Aula",20));
-            csharpColecoes.Adicona(new Aula("Modelando Coleções",24));
+            csharpColecoes.Adicona(new Aula("Trabalhando com Listas", 21));
+            csharpColecoes.Adicona(new Aula("Criando uma Aula", 20));
+            csharpColecoes.Adicona(new Aula("Modelando Coleções", 24));
 
             // Criar Aluno com nome e numero de matricula
 
-            Aluno a1 = new Aluno("Vanessa Tonini",34672);
-            Aluno a2 = new Aluno("Ana Losnak",5617);
-            Aluno a3 = new Aluno("Rafael Nercessian",17645);
+            Aluno a1 = new Aluno("Vanessa Tonini", 34672);
+            Aluno a2 = new Aluno("Ana Losnak", 5617);
+            Aluno a3 = new Aluno("Rafael Nercessian", 17645);
 
             // Matricular o Aluno no Curso
             csharpColecoes.Matricula(a1);
@@ -60,10 +60,12 @@ namespace Set_Dentro_Modelo
 
             Console.WriteLine("Quem é o aluno com a matrícula 5617");
             //implementando curso.BuscaMatriculado
-            
+
             Aluno aluno5617 = csharpColecoes.BuscaMatriculado(5617);
 
             Console.WriteLine(aluno5617);
+
+
 
             Console.ReadKey();
 
