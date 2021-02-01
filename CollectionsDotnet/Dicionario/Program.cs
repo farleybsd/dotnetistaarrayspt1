@@ -65,7 +65,12 @@ namespace Dicionario
 
             Console.WriteLine(aluno5617);
 
+            // se quisermos troca o aluno q tem a mesma chave
+            Aluno fabio = new Aluno("Fabio Gushiken", 5617);
+            csharpColecoes.SubstituirAluno(fabio);
 
+            Console.WriteLine("Quem é o aluno com a matrícula 5617");
+            Console.WriteLine(csharpColecoes.BuscaMatriculado(5617));
 
             Console.ReadKey();
 

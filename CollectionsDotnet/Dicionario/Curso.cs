@@ -101,5 +101,9 @@ namespace Dicionario
             return alunos.Contains(aluno);
         }
 
+        internal void SubstituirAluno(Aluno aluno)
+        {
+            this.dicionarioAlunos[aluno.NumeroMatricula] = aluno;
+        }
     }
 }
