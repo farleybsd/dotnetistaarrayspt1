@@ -37,6 +37,28 @@ namespace Set_Dentro_Modelo
                 Console.WriteLine(aluno);
             }
 
+            // o aluno está matriculado
+
+            Console.WriteLine($"O aluno a1 {a1.Nome} está matriculado {csharpColecoes.EstaMatriculado(a1)}");
+
+            // matricular Aluno
+
+            Aluno tonini = new Aluno("Vanessa Tonini", 34672);
+            Console.WriteLine($"Tonini está  matriculada ? {csharpColecoes.EstaMatriculado(tonini)}");
+
+            Console.WriteLine("a1 == a Tonini");
+            Console.WriteLine(a1 == tonini);
+
+            Console.WriteLine("a1 == a Tonini");
+            Console.WriteLine(a1.Equals(tonini));
+
+            // São diferentes! Precisamos então implementar Equals()
+            Console.WriteLine("a1 == a Tonini");
+            Console.WriteLine(a1.Equals(tonini));
+
+            Console.WriteLine($"Nome : {a1.Nome} , HahCode : {a1.GetHashCode()}");
+
+
             Console.ReadKey();
 
         }

@@ -34,5 +34,24 @@ namespace Set_Dentro_Modelo
         {
             return $"[Nome: {nome},Matrícula: {numeroMatricula}]";
         }
+
+        public override bool Equals(object obj)
+        {
+            Aluno outro = obj as Aluno;
+
+            if (obj == null) return false;
+
+            return this.nome.Equals(outro.nome);
+        }
+
+        /*
+         *  Dois objetos são iguais possuem o mesmo hashcode
+         *  Porem, o contrário não é verdadeiro
+         *  Dois objetos com  mesmo hash codes não são necessáriamente iguais
+         */
+        public override int GetHashCode()
+        {
+            return this.nome.GetHashCode();
+        }
     }
 }
