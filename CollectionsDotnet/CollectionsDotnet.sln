@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lista Ligada", "Lista Ligad
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pilha", "Pilha\Pilha.csproj", "{E17DD070-88BA-4262-8695-D8577507D678}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queue-Fila", "Queue-Fila\Queue-Fila.csproj", "{CA1E36D5-E368-44AA-97BB-4A59CF0CF78C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{E17DD070-88BA-4262-8695-D8577507D678}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E17DD070-88BA-4262-8695-D8577507D678}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E17DD070-88BA-4262-8695-D8577507D678}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA1E36D5-E368-44AA-97BB-4A59CF0CF78C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA1E36D5-E368-44AA-97BB-4A59CF0CF78C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA1E36D5-E368-44AA-97BB-4A59CF0CF78C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA1E36D5-E368-44AA-97BB-4A59CF0CF78C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
